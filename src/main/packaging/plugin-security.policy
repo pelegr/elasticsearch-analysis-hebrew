@@ -1,0 +1,4 @@
+grant {
+    permission java.io.FilePermission "/var/lib/hspell-data-files", "read";
+    permission java.io.FilePermission "/var/lib/hspell-data-files/*", "read";
+};
