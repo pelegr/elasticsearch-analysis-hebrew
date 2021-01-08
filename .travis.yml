@@ -1,11 +1,11 @@
 language: java
 jdk:
-  - oraclejdk10
+  - openjdk13
 
 cache:
   directories:
   - $HOME/.gradle
 
 script:
-  - ./setup.sh 6.4.1
+  - ./setup.sh 7.4.0
   - ./gradlew clean updateSHAs check
